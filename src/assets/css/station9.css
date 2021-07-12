@@ -48,6 +48,9 @@ main {
 }
 
 @media screen and (max-width: 768px) {
+  .card__title {
+    font-size: 12px;
+  }
   .card__description {
     font-size: 10px;
     overflow: hidden;
@@ -56,8 +59,10 @@ main {
 }
 
 @media screen and (max-width: 320px) {
+  .card__title {
+    font-size: 12px;
+  }
   .card__description {
-    font-size: 10px;
     display: none;
   }
 }
