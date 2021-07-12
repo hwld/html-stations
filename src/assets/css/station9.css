@@ -57,6 +57,7 @@ main {
 
 @media screen and (max-width: 320px) {
   .card__description {
+    font-size: 10px;
     display: none;
   }
 }
